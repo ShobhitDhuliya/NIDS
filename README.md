@@ -1,6 +1,6 @@
 ## ⚙️ Steps to Run the Project (NIDS)
 ### 1️⃣ Clone the Repository
-git clone <your-github-repository-link>
+git clone <your-github-rephttps://github.com/ShobhitDhuliya/NIDSository-link>
 cd NIDS
 
 ### 2️⃣ Create and Activate Virtual Environment (Recommended)
