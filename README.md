@@ -14,12 +14,14 @@ pip install numpy pandas seaborn matplotlib scikit-learn lightgbm xgboost tabula
 
 ### 4️⃣ Dataset Setup
 Create a folder named MINI_NIDS inside the project directory and place the dataset files as shown below:
+```text
 NIDS/
 │── MINI_NIDS/
 │   │── Train_data.csv
 │   │── Test_data.csv
 │── nids.ipynb
 │── README.md
+```
 Ensure the dataset paths in the code are correct:
 train = pd.read_csv("MINI_NIDS/Train_data.csv")
 test = pd.read_csv("MINI_NIDS/Test_data.csv")
