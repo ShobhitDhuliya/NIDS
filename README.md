@@ -1,54 +1,40 @@
-**This project implements a Machine Learning–based Network Intrusion Detection System (NIDS) that classifies network traffic as Normal or Anomaly using supervised learning algorithms.** 
-
-⚙️ Steps to Run the Project
-
-1️⃣ Clone the Repository
-Bash
+## ⚙️ Steps to Run the Project (NIDS)
+### 1️⃣ Clone the Repository
 git clone <your-github-repository-link>
 cd NIDS
 
-2️⃣ Create and Activate Virtual Environment (Recommended)
-Bash
+### 2️⃣ Create and Activate Virtual Environment (Recommended)
 python -m venv venv
-Activate the virtual environment
-Windows
-Bash
-venv\Scripts\activate
-Linux / macOS
-Bash
-source venv/bin/activate
-3️⃣ Install Required Dependencies
+venv\Scripts\activate   # Windows
+source venv/bin/activate   # Linux / macOS
 
-Bash
+### 3️⃣ Install Required Dependencies
 pip install numpy pandas seaborn matplotlib scikit-learn lightgbm xgboost tabulate optuna
 ✔ Tested on Python 3.12
 
-4️⃣ Dataset Setup
-Create a folder named MINI_NIDS inside the project directory and place the dataset files as shown:
-
+### 4️⃣ Dataset Setup
+Create a folder named MINI_NIDS inside the project directory and place the dataset files as shown below:
 NIDS/
 │── MINI_NIDS/
 │   │── Train_data.csv
 │   │── Test_data.csv
 │── nids.ipynb
 │── README.md
-Update dataset paths if required:
-Python
+Ensure the dataset paths in the code are correct:
 train = pd.read_csv("MINI_NIDS/Train_data.csv")
 test = pd.read_csv("MINI_NIDS/Test_data.csv")
 
-5️⃣ Remove Google Colab Specific Code
-This project is meant to run locally, so remove or comment out the following lines:
-Python
+### 5️⃣ Remove Google Colab Specific Code
+Remove or comment out the following lines if present:
 from google.colab import drive
 drive.mount('/content/drive')
 
-6️⃣ Run the Project
-Option A: Jupyter Notebook (Recommended)
-Bash
+### 6️⃣ Run the Project
+Using Jupyter Notebook (Recommended):
 jupyter notebook
 Open nids.ipynb and run all cells sequentially.
-Option B: Python Script
-If converted to a script:
-Bash
+Or run as a Python script:
 python nids.py
+
+### ✅ Output
+The project trains and evaluates multiple machine learning models for a Network Intrusion Detection System (NIDS) and reports Accuracy, Precision, Recall, F1-Score, Confusion Matrix, and performance comparison plots.
