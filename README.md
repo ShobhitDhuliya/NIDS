@@ -1,9 +1,8 @@
 ## ⚙️ Steps to Run the Project (NIDS)
 ### 1️⃣ Clone the Repository
-```text
-git clone <your-github-rephttps://github.com/ShobhitDhuliya/NIDSository-link>
+git clone < your-github-rephttps://github.com/ShobhitDhuliya/NIDSository-link >
 cd NIDS
-```
+
 ### 2️⃣ Create and Activate Virtual Environment (Recommended)
 python -m venv venv
 venv\Scripts\activate   # Windows
