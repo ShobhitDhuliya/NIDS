@@ -1,4 +1,4 @@
-**This project implements a Machine Learning–based Network Intrusion Detection System (NIDS) that classifies network traffic as Normal or Anomaly using supervised learning algorithms.**
+**This project implements a Machine Learning–based Network Intrusion Detection System (NIDS) that classifies network traffic as Normal or Anomaly using supervised learning algorithms.** 
 
 Steps to 
 **1️⃣ Clone the Repository**
